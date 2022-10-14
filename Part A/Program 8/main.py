@@ -1,8 +1,3 @@
-# This is a sample Python script.
-
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-
 from functools import reduce # for reduce function
 list = [] # list to store the numbers
 for i in range(0,6): # for loop to take input
