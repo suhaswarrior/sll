@@ -14,3 +14,5 @@ print("The sum of the original list  is ",listSum) # printing the sum
 
 listSum = reduce(lambda a,b:a+b,newlist) # using reduce function
 print("The sum of the original list  is ",listSum) # printing the sum
+
+
