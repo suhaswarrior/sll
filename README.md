@@ -20,8 +20,8 @@ v. Determine if an element is present in the list.
 
 6. Python: Write Python code to do the following operations:<br>
 • Create a dictionary that contains the atomic element symbol and its name.<br>
-• Add a unique & duplicate element into this dictionary by interacting with the user.<br>
-Observe the output and justify it.
+• Add a unique & duplicate element into this dictionary by interacting with the user.
+Observe the output and justify it.<br>
 • Display the number of atomic elements in this dictionary<br>
 • Ask user to enter an element to search in the dictionary. Display appropriate results.<br>
 Rewrite this program so that these operations are inside a function called ‘AtomicDictionary’. Create another python file called “Atomic.py” and execute this function in it.<br>
