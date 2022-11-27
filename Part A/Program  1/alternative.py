@@ -13,3 +13,6 @@ if int(input()) in List:
     print("Element found")
 else:
     print("Element not found")
+print("Enter the index number to be deleted ")
+del List[int(input())]
+
