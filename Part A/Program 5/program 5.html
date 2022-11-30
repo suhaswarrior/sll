@@ -1,0 +1,44 @@
+<html>
+    <head>
+    <title> String program </title>
+    </head>
+    
+    <body>
+      <center>
+    <h2>String Program</h2>
+     </center>
+
+<h2>Enter the text</h2><input type = "text" id = "string" >
+<input type = "button"  onclick = "start()"  value= "SUBMIT"><br><br>
+The changed string is as follows<p id ="result"></p>
+<script>
+  function start(){
+      let string1 = document.getElementById("string").value;
+      var s = string1.split('');
+      for (var i = 0; i < s.length; i++) {
+        // Caesar cipher
+        switch(s[i]) {
+          case ' ':
+            break;
+          case 'z':
+            s[i] = 'a';
+            break;
+          case 'Z':     // One case you forgot to handle
+            s[i] = 'A';
+            break;
+          default:
+            s[i] = String.fromCharCode(1 + s[i].charCodeAt(0));
+
+        // Upper-case vowels
+        switch(s[i]) {
+          case 'a': case 'e': case 'i': case 'o': case 'u':
+            s[i] = s[i].toUpperCase();
+        }
+      }
+    }
+    text1 = s.join('');
+    document.getElementById("result").innerHTML = text1;
+  }
+</script>
+    </body>
+</html>
