@@ -1,4 +1,3 @@
-
 print("Temperature Converter")
 print("1. Celsius to Fahrenheit")
 print("2. Fahrenheit to Celsius")
@@ -33,19 +32,19 @@ def kelvin_to_fahrenheit(kelvin):
     return kelvin * 9/5 - 459.67
 
 
-def view_history(history):
-    print("1. Sort by From Unit")
+def view_history(history): # history is a list
+    print("1. Sort by From Unit") 
     print("2. Sort by To Unit")
 
-    choice = int(input("Enter your choice: "))
+    choice = int(input("Enter your choice: ")) 
 
     if choice == 1:
-        history.sort(key=lambda x: x[0])
+        history.sort(key=lambda x: x[0]) # sort by first element of each tuple
     elif choice == 2:
-        history.sort(key=lambda x: x[1])
+        history.sort(key=lambda x: x[1]) # sort by second element of each tuple
     else:
         print("Invalid Choice")
-    for i in history:
+    for i in history: # print each tuple in history
         print(i)
 
 
@@ -88,4 +87,3 @@ while True:
         break
     else:
         print("Invalid Choice")
-        
