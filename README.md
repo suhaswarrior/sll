@@ -1,11 +1,11 @@
 <h2>PART – A</h2>
 
-1. Python: Write Python code to do the following:
-i. Create list with inputs from user
-ii. Determine minimum and maximum elements in the list
-iii. Insert new element into the list
-iv. Delete an element from the list
-v. Determine if an element is present in the list.
+1. Python: Write Python code to do the following:<br>
+i. Create list with inputs from user<br>
+ii. Determine minimum and maximum elements in the list<br>
+iii. Insert new element into the list<br>
+iv. Delete an element from the list<br>
+v. Determine if an element is present in the list.<br>
 
  2. HTML and Javascript: Create a front end that allows the user to enter details of the item purchased (item name, item price (option), number of items bought). On clicking of the submit button, the total cost for the item purchased should be calculated and displayed. On clicking on the ‘paid’ button, appropriate alert box should be popped up.
  
