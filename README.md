@@ -53,18 +53,18 @@ d. Perform the following visualizations on the loaded dataset:<br>
 • Survival rate of male vs female<br>
 • No of passengers in each age group<br>
 
-4. Python for Data Science: Load the ‘Student Performance’ dataset into one of the data structures (NumPy or Pandas) and perform the following operations.
-a. Display header rows and description of the loaded dataset.
+4. Python for Data Science: Load the ‘Student Performance’ dataset into one of the data structures (NumPy or Pandas) and perform the following operations.<br>
+a. Display header rows and description of the loaded dataset.<br>
 b. Remove unnecessary features (E.g. drop unwanted columns) from the dataset such
-as ‘lunch’ and ‘test preparation course.
+as ‘lunch’ and ‘test preparation course.<br>
 c. Convert the attribute ‘race/ethnicity’ to have ‘groupA’ to be ‘Asian Students’,
 ‘groupB’ to be ‘African Students’ , ‘groupC’ to be ‘Afro-Asian Students’,
-‘groupD’ to be ‘American Students’ and ‘groupE’ to be ‘European Students’.
-d. Perform the following visualizations on the loaded dataset:
-• Tally of the Number of Male & Female students who took up the ‘test preparation course’ and those who did not.
-• Total Number of Male & Female Students belonging to each student group
+‘groupD’ to be ‘American Students’ and ‘groupE’ to be ‘European Students’.<br>
+d. Perform the following visualizations on the loaded dataset:<br>
+• Tally of the Number of Male & Female students who took up the ‘test preparation course’ and those who did not.<br>
+• Total Number of Male & Female Students belonging to each student group<br>
 • No of students who ‘failed’(less than 40), ‘second class’(between 40 & 50), ‘first class’(between 60 & 75) and ‘distinction’(above 75) in ‘Maths’,
-‘Reading’ and ‘Writing’.
+‘Reading’ and ‘Writing’.<br>
 
 5. Python for Data Science - Perform Data Visualization on Iris Dataset
 a)Load the Titanic dataset into one of the data structures (NumPy or Pandas). b)Display header rows and description of the loaded dataset.
