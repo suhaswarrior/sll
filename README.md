@@ -75,12 +75,12 @@ e) Data Visualization for:
 (ii) How many flowers are there whose petal width is <1, between 1 to 2 and >2
 (iii) Tally the Iris-Versicolour and Iris-Virginica species according to the value of Sepal Width
 
-6. Javascript: Design a HTML page with two textboxes and button. Let user enter a sentence in the first text box and the search string in the second. Use Javascript to perform the following operations on clicking the button
-a. Display the entered text
+6. Javascript: Design a HTML page with two textboxes and button. Let user enter a sentence in the first text box and the search string in the second. Use Javascript to perform the following operations on clicking the button.<br>
+a. Display the entered text.<br>
 b. Display the number of digits, white space characters and alphabets in the entered
-text
-c. Check the number of occurrences of any given word.
-d. Determine the position of occurrence of the search string in the given string
+text.<br>
+c. Check the number of occurrences of any given word.<br>
+d. Determine the position of occurrence of the search string in the given string.<br>
 
 7. Javascript: Design a HTML page to accept a string in a text box on the click of a button. Use Javascript to perform the following operations
 a. Add the string received to a pre-existing Javascript array named “Original_String” at its beginning
