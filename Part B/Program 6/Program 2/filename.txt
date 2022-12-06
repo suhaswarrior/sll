@@ -1,0 +1,33 @@
+Python Classes: Write a python class to reverse a sentence (initialized via constructor) word by word. Example: “I am here” should be reversed as “here am I”. Create instances of this class for each of the three strings input by the user and display the reversed string for each, in descending order of number of vowels in the string.
+
+Python File Handling & List Comprehension: Write a python program to read the contents of a file (filename as argument) and store the number of occurrences of each word in a dictionary. Display the top 10 words with most number of occurrences in descending order. Store the length of each of these words in a list and display the list. Write a one-line reduce function to get the average length and one-line list comprehension to display squares of all odd numbers and display both.
+
+Python for Data Science: Load the Titanic dataset into one of the data structures (NumPy or Pandas) and perform the following operations.
+a. Display header rows and description of the loaded dataset.
+b. Remove unnecessary features (E.g. drop unwanted columns) from the dataset.
+c. Manipulate data by replacing empty column values with a default value.
+d. Perform the following visualizations on the loaded dataset:
+• Passenger status (Survived/Died) against Passenger Class
+• Survival rate of male vs female
+• No of passengers in each age group
+
+Python for Data Science: Load the ‘Student Performance’ dataset into one of the data structures (NumPy or Pandas) and perform the following operations.
+a. Display header rows and description of the loaded dataset.
+b. Remove unnecessary features (E.g. drop unwanted columns) from the dataset such as ‘lunch’ and ‘test preparation course.
+c. Convert the attribute ‘race/ethnicity’ to have ‘groupA’ to be ‘Asian Students’, ‘groupB’ to be ‘African Students’ , ‘groupC’ to be ‘Afro-Asian Students’, ‘groupD’ to be ‘American Students’ and ‘groupE’ to be ‘European Students’.
+d. Perform the following visualizations on the loaded dataset:
+• Tally of the Number of Male & Female students who took up the ‘test preparation course’ and those who did not.
+• Total Number of Male & Female Students belonging to each student group
+• No of students who ‘failed’(less than 40), ‘second class’(between 40 & 50), ‘first class’(between 60 & 75) and ‘distinction’(above 75) in ‘Maths’, ‘Reading’ and ‘Writing’.
+
+Python for Data Science - Perform Data Visualization on Iris Dataset a)Load the Titanic dataset into one of the data structures (NumPy or Pandas). b)Display header rows and description of the loaded dataset. c) Clean the data if applicable d) Find the average petal width of each category of IRIS Species e) Data Visualization for: (i) How many flowers of each species exists for each value of sepal width (ii) How many flowers are there whose petal width is <1, between 1 to 2 and >2 (iii) Tally the Iris-Versicolour and Iris-Virginica species according to the value of Sepal Width
+
+Javascript: Design a HTML page with two textboxes and button. Let user enter a sentence in the first text box and the search string in the second. Use Javascript to perform the following operations on clicking the button a. Display the entered text b. Display the number of digits, white space characters and alphabets in the entered text c. Check the number of occurrences of any given word. d. Determine the position of occurrence of the search string in the given string
+
+Javascript: Design a HTML page to accept a string in a text box on the click of a button. Use Javascript to perform the following operations a. Add the string received to a pre-existing Javascript array named “Original_String” at its beginning b. For each array element, use a callback function and store each one’s length in a new array named “MyLength” c. Write a Javascript function that takes the arrays “Original_String” and “MyLength” as argument. This function filters those strings with length less than or equal to 3.
+
+Python and JavaScript - ATM Application: Design a HTML form that displays user’s current balance, an input field to enter amount and buttons to withdraw or deposit money. Validate the form such that a. Negative amount cannot be entered and Users cannot withdraw more than 5000 at one time b. Users cannot withdraw amount greater than their balance and cannot deposit more than 10000 at one time. Also users can perform at most 5 transactions. Update the balance accordingly and ensure relevant data is not lost on closing the browser
+
+Python and JavaScript - Shopping Cart Application: Design a simple Shopping Cart application which allows users to add items to their cart from a list of products. Allow users to view their cart (items and quantities of each). Ensure that items in the cart persist even after closing the application. On selecting buy, print out a bill of items in the cart. Perform any necessary validation. Demonstrate data persistence even after the browser is closed.
+
+Write a Python program to perform the following: • Apply histogram equalization on the given image for contrast enhancement. • Detect edges in the given image.
